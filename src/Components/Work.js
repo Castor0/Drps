@@ -2,6 +2,13 @@ import React from "react";
 import PickMeals from "../Assets/pick-meals-image.png";
 import ChooseMeals from "../Assets/choose-image.png";
 import DeliveryMeals from "../Assets/delivery-image.png";
+import img1 from "../Assets/8.jpeg"
+import img2 from "../Assets/9.jpeg"
+import img3 from "../Assets/10.jpeg"
+import img4 from "../Assets/7.jpeg"
+import img5 from "../Assets/4.jpeg"
+
+
 
 const Work = () => {
   const workInfoData = [
@@ -41,6 +48,60 @@ const Work = () => {
             <p>{data.text}</p>
           </div>
         ))}
+         <span className="backgorund">
+            <section className="gallery">
+                <article className="card">
+                    <figure>
+                        <img
+                        src={img1}
+                        alt="Preview"
+                        title="Preview"
+                        />
+                    </figure>
+                </article>
+                <article className="card">
+                    <figure>
+                        <img
+                        src={img2}
+                        alt="Preview"
+                        title="Preview"
+                        />
+                    </figure>
+                </article>
+
+                <article className="card">
+                    <figure>
+                        <img
+                        src={img3}
+                        alt="Preview"
+                        title="Preview"
+                        />
+                    </figure>
+                </article>
+
+                <article className="card">
+                    <figure>
+                        <img
+                        src={img4}
+                        alt="Preview"
+                        title="Preview"
+                        />
+                    </figure>
+                </article>
+
+                <article className="card">
+                    <figure>
+                        <img
+                        src={img5}
+                        alt="Preview"
+                        title="Preview"
+                        />
+                    </figure>
+                </article>
+
+         
+            </section>
+        </span>
       </div>
     </div>
   );

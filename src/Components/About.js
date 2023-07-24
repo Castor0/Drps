@@ -1,6 +1,6 @@
 import React from "react";
 import AboutBackground from "../Assets/about-background.png";
-import AboutBackgroundImage from "../Assets/image2.png";
+import AboutBackgroundImage from "../Assets/image1.png";
 import { BsFillPlayCircleFill } from "react-icons/bs";
 
 const About = () => {
@@ -22,9 +22,7 @@ const About = () => {
 The company is registered and deals on cutting edge products that are environmentally fridndly. 
 
         </p>
-        <p className="primary-text">
-        Our services are affordable and we carry out site inspection, measurements and suggest most appropriate method of resolving the issue immediately at site at no cost by our professionals. 
-        </p>
+       
         <div className="about-buttons-container">
           <button className="secondary-button">Learn More</button>
           <button className="watch-video-button">

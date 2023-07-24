@@ -34,8 +34,7 @@ const Work = () => {
         <p className="primary-subheading">Work</p>
         <h1 className="primary-heading">How It Works</h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+        Our services are affordable and we carry out site inspection, measurements and suggest most appropriate method of resolving the issue immediately at site at no cost by our professionals. 
         </p>
       </div>
       <div className="work-section-bottom">

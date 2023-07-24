@@ -52,9 +52,9 @@ const Navbar = () => {
         <a href="testimonial">Testimonials</a>
         <a href="contact">Contact</a>
         <a href="">
-          <BsCart2 className="navbar-cart-icon" />
+         
         </a>
-        <button className="primary-button">"09073367063"</button>
+        
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />

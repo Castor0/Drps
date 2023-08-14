@@ -1,7 +1,6 @@
 import React from "react";
 import AboutBackground from "../Assets/about-background.png";
 import AboutBackgroundImage from "../Assets/image1.png";
-import { BsFillPlayCircleFill } from "react-icons/bs";
 
 const About = () => {
   return (
@@ -19,15 +18,12 @@ const About = () => {
         </h1>
         <p className="primary-text">
         Dampness and Rooftop Solutions Limited is affiliated to AMEHGATE Integrated Services Limited sole importers of Revinca Products. DRSL is your one stop shop for all your waterproofing and Dampproofing solutions. 
-The company is registered and deals on cutting edge products that are environmentally fridndly. 
+        The company is registered and deals on cutting edge products that are environmentally fridndly. 
 
         </p>
        
         <div className="about-buttons-container">
           <button className="secondary-button">Learn More</button>
-          <button className="watch-video-button">
-            <BsFillPlayCircleFill /> Watch Video
-          </button>
         </div>
       </div>
     </div>

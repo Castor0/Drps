@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import LOgO from "../Assets/LOgO.png";
-import { BsCart2 } from "react-icons/bs";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
@@ -16,6 +15,7 @@ import InfoIcon from "@mui/icons-material/Info";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -47,13 +47,12 @@ const Navbar = () => {
         <img className="logo" src={LOgO} alt="" />
       </div>
       <div className="navbar-links-container">
-        <a href="home">Home</a>
-        <a href="about">About</a>
-        <a href="testimonial">Testimonials</a>
-        <a href="contact">Contact</a>
-        <a href="">
-         
-        </a>
+        <a href="home"> Home </a>
+        <Link to="about">About</Link>
+        <Link to="testimonial">Testimonials</Link>
+        <Link to="contact">Contact</Link>
+        <Link to="">
+        </Link>
         
       </div>
       <div className="navbar-menu-container">

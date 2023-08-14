@@ -20,7 +20,7 @@ const Home = () => {
           
           </p>
           <button className="secondary-button">
-            Contact Us<FiArrowRight />{" "}
+            Contact Us now <FiArrowRight />{" 080 6199 2343  "}
           </button>
         </div>
         <div className="home-image-section">

@@ -11,7 +11,7 @@ import img9 from "../Assets/13.jpeg"
 import img10 from "../Assets/DSC_6436.JPG"
 import img11 from "../Assets/DSC_6441.JPG"
 import img12 from "../Assets/DSC_6439.JPG"
-
+import img13 from "../Assets/green.jpeg"
 const Work = () => {
   
   return (
@@ -20,7 +20,7 @@ const Work = () => {
         <p className="primary-subheading">Work</p>
         <h1 className="primary-heading">How It Works</h1>
         <p className="primary-text">
-        Our services are affordable and we carry out site inspection, measurements and suggest most appropriate method of resolving the issue immediately at site at no cost by our professionals. 
+        Our services are affordable and we carry out site inspection, measurements and suggest most appropriate method of resolving the issue immediately at site at no cost by our professionals. Place a call now and speak to our professionals.
         </p>
     </div>
     <div className="grid-wrapper">
@@ -36,7 +36,7 @@ const Work = () => {
         <div className="tall">
             <img src={img12} alt="preview"/>
         </div>
-        <div className="big">
+        <div className="wide">
             <img src={img5} alt="preview"/>
         </div>
         <div>
@@ -51,7 +51,7 @@ const Work = () => {
         <div>
             <img src={img9} alt="preview"/>
         </div>
-        <div className="wide">
+        <div className="big">
             <img src={img10} alt="preview"/>
         </div>
         <div className="big">
@@ -59,6 +59,9 @@ const Work = () => {
         </div>
         <div className="big">
             <img src={img4} alt="preview"/>
+        </div> 
+        <div className="wide">
+            <img src={img13} alt="preview"/>
         </div> 
     </div>
     </div>

@@ -1,9 +1,12 @@
 import React from "react";
 import AboutBackground from "../Assets/about-background.png";
 import AboutBackgroundImage from "../Assets/image1.png";
+import { useNavigate } from "react-router-dom";
 
 const About = () => {
+  const navigate = useNavigate()
   return (
+    <div>
     <div className="about-section-container">
       <div className="about-background-image-container">
         <img src={AboutBackground} alt="" />
@@ -18,15 +21,18 @@ const About = () => {
         </h1>
         <p className="primary-text">
         Dampness and Rooftop Solutions Limited is affiliated to AMEHGATE Integrated Services Limited sole importers of Revinca Products. DRSL is your one stop shop for all your waterproofing and Dampproofing solutions. 
-        The company is registered and deals on cutting edge products that are environmentally fridndly. 
+        The company is registered and deals on cutting edge products that are environmentally friendly. 
 
         </p>
-       
+      
         <div className="about-buttons-container">
-          <button className="secondary-button">Learn More</button>
+          <button className="secondary-button" onClick={() => navigate("/home")}>Learn More</button>
         </div>
       </div>
     </div>
+  
+    </div>
+    
   );
 };
 

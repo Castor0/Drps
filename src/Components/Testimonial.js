@@ -8,16 +8,12 @@ const Testimonial = () => {
       <div className="work-section-top">
         <p className="primary-subheading">Testimonial</p>
         <h1 className="primary-heading">What They Are Saying</h1>
-        <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
-        </p>
+        
       </div>
       <div className="testimonial-section-bottom">
         <img src={ProfilePic} alt="" />
         <p>
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+        Everyone with whom I worked at DRSL was professional. DRSL did the estimate and handled the early phase of the job. Their help was very valuable to us. DRSL and their entire crew were punctual, professional, and hard-working.
         </p>
         <div className="testimonials-stars-container">
           <AiFillStar />
